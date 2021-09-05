@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        scroll-padding-top: 50px;
+    }
+    p{
+        text-align: center;
+        font-size: 2pc;
+        font-weight: bolder;
+    }
+    .heading{
+        position: absolute;
+        top: 8%;
+        left: 42%;
+        font-size: 40px;
+    }
+    .header
+    {
+        text-align: center;
+        background-color: grey;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        height: 70px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    ul:hover{
+        color: grey;
+        background-color: white;
+        width: auto;
+        display: inline-block;
+        font-size: 20px;
+        padding: 8px 35px;
+        border-radius: 15px;
+    }
+    .imb{
+        height: 600px;
+        width: 100%;
+        margin-top: 50px ;
+    }
+    .circle{
+        border-radius: 50%;
+        width: 240px;
+        height: 240px;
+        margin-left: 80px;
+        float: left;
+        
+    }
+    .main{
+        float: left;
+        background-color: goldenrod;
+        width: 46%;
+        height: 470px;
+        padding: 5px;
+        font-size: 25px;
+        
+        
+    }
+    .artical{
+        float: right;
+        border-image: outset;
+        width: 50%;
+        height: 150px;
+        padding: 5px;
+        
+    }
+     .articalheading{
+        position: absolute;
+        left: 70%;
+        
+    } 
+    .articalheading2{
+        position: absolute;
+        left: 70%;
+        margin-top: 200px;
+    }
+    .articalheading3{
+        position: absolute;
+        left: 70%;
+        margin-top: 330px;
+    }
+    .card{
+        width: 21%;
+        background-color: yellowgreen;
+        height: 480px;
+        padding: 5px;
+        float: left;
+        
+        margin-left: 30px;
+        text-align: center;
+        border-radius: 10px;
+        
+        
+    }
+    .button:hover{
+        background-color: green;
+        color: white;
+    }
+    .button{
+        text-align: centre;
+        background-color: red;
+        width: 60%;
+        height: 10%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cardimg {
+        height: 100;
+        width: 80%;
+        border-radius:  10px;
+        padding-top: 10px;
+    }
+    .cardheading{
+        font-size: 20px;
+    }
+    .cardfont{
+        font-size: 18px;
+    }
+    .cardfont2{
+        font-size: 18px;
+    }
+    .footer{
+        height: 60px;
+        background-color: violet;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        
+        
+    }
+    body{
+        background-color: rgb(230, 222, 222);
+    }
+    
+</style>
+<body>
+    <a class="top"></a>
+    <div class="header">
+        <ul>
+            <a style="color: inherit; text-decoration: none;" href="#top">home</a>
+        </ul>
+        <ul>
+            <a style="color: inherit; text-decoration: none;" href="#tm">team</a>
+        </ul>
+        <ul>
+            <a style="color: inherit; text-decoration: none;" href="#ap">about</a>
+        </ul>
+        <ul>
+            <a style="color: inherit; text-decoration: none;" href="#tu">tecnologies</a> 
+        </ul>
+        <ul>
+            <a style="color: inherit; text-decoration: none;" href="#cu">contact</a>
+        </ul>
+    </div>
+    
+    <div>
+        <h1 class="heading">ASSIGNMENT 8</h1>  <img class="imb"src="./images/desk.jpg">
+    </div>
+    <a id="tm"></a>   
+    <p>TEAM MEMBERS</p>
+    
+    <div>
+        <img class="circle" src="./images/male.png">
+    </div>
+    <div >
+        <img class="circle" src="./images/female.jpg">
+    </div>
+    <div >
+        <img class="circle" src="./images/female.jpg">
+    </div>
+    <div >
+        <img class="circle" src="./images/male.png">
+    </div>
+    
+    <p>ABOUT PROJECT</p>
+    <a id="ap"></a>
+    <div class="main1"><div class="main">
+        <h2>About Project</h2>
+        lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+    <div >
+       <P class="articalheading">PROJECT 1</P> <img class="artical" src="./images/p1.png">
+    </div>
+    <div >
+        <P class="articalheading2">PROJECT 2</P> <img class="artical" src="./images/p2.jpg">
+    </div>
+    <div>
+        <P class="articalheading3">PROJECT 3</P> <img class="artical" src="./images/p3.jpg">
+    </div>
+    </div>
+    <p>TECNOLOGIES USED</p>
+    <a id="tu"></a>
+    <div class="card">
+        <img class="cardimg"src="./images/h.jpeg" alt="" >
+        <h4 class="cardheading">Introduction to HTML</h4> 
+        <p class="cardfont">
+            HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages. Hypertext refers to the way in which Web pages (HTML documents) are linked together.
+         Thus, the link available on a webpage is called Hypertext.
+        </p> 
+        <a >
+        <button class ="button" onclick="window.location.href = './webpages/html.html';">
+            read more
+        </button>
+    </a>
+    </div>
+    <div class="card">
+        <img class="cardimg" src="./images/j.jpeg" alt="" >
+        <h4 class="cardheading">  Introduction to js</h4>
+        <p class="cardfont2">JavaScript often abbreviated as JS,
+             is a programming language that conforms to the ECMAScript specification.avaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation,
+        </p>
+        <a >
+            <button class ="button" onclick="window.location.href = './webpages/js.html';">
+                read more
+            </button>
+        </a>
+        
+    </div>
+    <div class="card">
+        <img class="cardimg"src="./images/css.jpeg" alt="">
+        <h4 class="cardheading">Introduction to css</h4>
+        <p class="cardfont2">
+            CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility,
+            provide more flexibility and control in the specification project on GitHub
+        </p>
+        
+            <a >
+                <button class ="button" onclick="window.location.href = './webpages/css.html';">
+                    read more
+                </button>
+            </a>
+    </div>
+    <div class="card">
+        <img class="cardimg" src="./images/b.jpeg" alt="">
+        <h4 class="cardheading"> Introduction to boot</h4>
+        <p class="cardfont2">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally)
+            As of August 2021, Bootstrap is the tenth most starred project on GitHub, with over project on Github.
+            </p>
+        
+            <a >
+                <button class ="button" onclick="window.location.href = './webpages/boot.html';">
+                    read more
+                </button>
+            </a>
+    
+    </div>
+    <p>CONTACT US</p>
+    <a id="cu"></a>
+    <div class="footer">
+     Website template for Practical 8 <br>
+     <a href="#top">back to top</a> 
+    </div>
+
+
+
+</body>
+</html>
